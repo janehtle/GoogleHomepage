@@ -15,18 +15,18 @@ So far, this site is able to do a basic search by text input in the search bar a
 
 # Resources Used
 
-W3Schools
-W3C Markup Validation Service
-Reddit
-MDN Web Docs
-Stack Overflow
-Odin Project
-Google
-instructors at Road to Hire
-fellow peers at Road to Hire
-YouTube (BroCode, Programming with Mosh, Mech Dev)
-CodeAcademy
-freeCodeCamp
+- W3Schools
+- W3C Markup Validation Service
+- Reddit
+- MDN Web Docs
+- Stack Overflow
+- Odin Project
+- Google
+- instructors at Road to Hire
+- fellow peers at Road to Hire
+- YouTube (BroCode, Programming with Mosh, Mech Dev)
+- CodeAcademy
+- freeCodeCamp
 
 # Timeline
 
