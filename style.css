@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    background-image: url("./images/sunflower.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    padding: 24px;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+  /*gap: 15px; */
+    color: #FFFFFF;
+}
+
+.nav-icons {
+    padding: 13px;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+main {
+    padding: 20px;
+}
+
+#logo {
+    height: 93px;
+    width: 273px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+#input-container {
+    border-radius: 24px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46%;
+    background-color: white;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 24px;
+    padding: 16px;
+    width: 82%;
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+input[type="search"] {
+    font-size: 16px;
+}
+
+.input-icons {
+    margin: 0 5px;
+}
+
+/*-webkit-search-... is a pseudo element that targets any extra feature that appears in the search bar and removes/hides it for 
+extra measure and the last line of code does just that at removing the x button in the search bar */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+#github {
+    height: 24px;
+    width: 24px;
+    background-color: rgb(79, 68, 74);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#github-shortcut {
+    padding: 10px 30px;
+}
+
+#add-shortcut {
+    padding: 10px;
+}
+
+#add {
+    background-color: rgb(79, 68, 74);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.shortcuts {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.shortcut-tiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.shortcut-para {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#art-cred {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0px 8px;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    flex-direction: row;
+}
+
+footer div p {
+    font-weight: 400px;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#edit {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 16px;
+}
+
+#edit:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#art-cred:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.underline {
+    text-decoration: none;
+    padding: 13px;
+}
+
+.underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#flask:hover, #apps:hover, .input-icons:hover {
+    cursor: pointer;
+}
+
+.nav-icons:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.shortcut-tiles:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+
